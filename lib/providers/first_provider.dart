@@ -13,14 +13,4 @@ class FirstProvider with ChangeNotifier {
     _counter--;
     notifyListeners();
   }
-
-  void changeThemeLight() {
-    theme = ThemeData.light();
-    notifyListeners();
-  }
-
-  void changeThemeDark() {
-    theme = ThemeData.dark();
-    notifyListeners();
-  }
 }
